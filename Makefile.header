@@ -19,9 +19,10 @@ DUNE_BUILD_SRCDIR =							\
 
 # TARGET_PLAT is defined in Makefile
 TARGET_ARCH ?= x64
-TARGET_SPEC = $(TARGET_PLAT)-$(TARGET_ARCH)
 ifeq ($(TARGET_PLAT),web)
   TARGET_SPEC = $(TARGET_PLAT)
+else
+  TARGET_SPEC = $(TARGET_PLAT)-$(TARGET_ARCH)
 endif
 
 TARGET_PROFILE ?= release
