@@ -48,7 +48,8 @@ let find_superbol root =
     Vscode.Uri.joinPath root ~pathSegments:[name]) @@ [
     Format.asprintf "%s-%s-%s%s" prefix platform arch suffix;
     Format.asprintf "%s-%s%s" prefix platform suffix;
-    Format.asprintf "%s%s" prefix suffix
+    Format.asprintf "%s%s" prefix suffix;
+    Format.asprintf "main.bc.js"
   ] @ if platform = "darwin" && arch = "arm64" then
     [ Format.sprintf "%s-%s-%s%s" prefix platform "x64" suffix]
   else

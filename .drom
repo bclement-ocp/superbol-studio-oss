@@ -5,7 +5,7 @@ version:0.9.0
 
 # hash of toml configuration files
 # used for generation of all files
-d369e2949d85dee79233d322ce6f7587:.
+1bebcb610f386901c07c8def471aced1:.
 # end context for .
 
 # begin context for .github/workflows/workflow.yml
@@ -25,7 +25,7 @@ d369e2949d85dee79233d322ce6f7587:.
 
 # begin context for Makefile
 # file Makefile
-47a1f06175119e41d07c168651c1a645:Makefile
+8a54c5db91ea9eff48ead8dc49f5d05e:Makefile
 # end context for Makefile
 
 # begin context for README.md
@@ -75,7 +75,7 @@ c8281f46ba9a11d0b61bc8ef67eaa357:docs/style.css
 
 # begin context for dune-project
 # file dune-project
-456fa426d82598ce9843614e380d00d7:dune-project
+b31bfdac90731aba7623d6bace37737f:dune-project
 # end context for dune-project
 
 # begin context for opam/cobol_cfg.opam
@@ -95,7 +95,7 @@ c8281f46ba9a11d0b61bc8ef67eaa357:docs/style.css
 
 # begin context for opam/cobol_data.opam
 # file opam/cobol_data.opam
-02198635cb5365931deb20b655889630:opam/cobol_data.opam
+4d79b472ecc1854518e933df4c865a88:opam/cobol_data.opam
 # end context for opam/cobol_data.opam
 
 # begin context for opam/cobol_indent.opam
@@ -320,7 +320,7 @@ c6c7cd50f0ebff63bab991bf9a1633e6:src/lsp/cobol_cfg/dune
 
 # begin context for src/lsp/cobol_data/dune
 # file src/lsp/cobol_data/dune
-4c5f42c322869bf815a6afc8a9ebea98:src/lsp/cobol_data/dune
+805bc16e08adbaf3eb464cf85f49c6fb:src/lsp/cobol_data/dune
 # end context for src/lsp/cobol_data/dune
 
 # begin context for src/lsp/cobol_data/version.mlt
@@ -470,7 +470,7 @@ c222bcf238c7b0cd7c910fc5ec8e2dcd:src/lsp/sql_parser/dune
 
 # begin context for src/lsp/superbol-free/dune
 # file src/lsp/superbol-free/dune
-095155be06e2840753e52b3d03d541b9:src/lsp/superbol-free/dune
+4783fc059cd720e7b501e24e65b52688:src/lsp/superbol-free/dune
 # end context for src/lsp/superbol-free/dune
 
 # begin context for src/lsp/superbol-free/linking_flags.sh
