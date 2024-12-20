@@ -33,8 +33,8 @@ build:
 ifeq ($(TARGET_PLAT)_$(BUILD_STATIC_EXECS),linux_true)
 	./scripts/static-build.sh
 else
-ifeq ($(TARGET_PLAT), web)
-	${DUNE} build
+ifeq ($(TARGET_PLAT),web)
+	${DUNE} build ${DUNE_ARGS} ${DUNE_CROSS_ARGS}
 else
 	${DUNE} build ${DUNE_ARGS} ${DUNE_CROSS_ARGS} @install
 endif
